@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "intToRoman",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testConversions",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignments/first/04/04.sol": "IntegerToRoman"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignments/first/04/04.sol": {
+			"keccak256": "0x1a4dcf4be2cd2801a8dce9e0fd1d5d9ea0d1f35e08e4ef890dd067b23220fce7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://61a43aa8cb28984d2c072541c74ca173b0a8b0392bd2e9a8c008f9b8ec318ef0",
+				"dweb:/ipfs/QmPjZgbnfRRx2ihJjg4mdLPZY6K9BK4b8PXQB4N8sWhZYF"
+			]
+		}
+	},
+	"version": 1
+}

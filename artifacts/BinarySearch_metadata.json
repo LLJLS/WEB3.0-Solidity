@@ -1,0 +1,205 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "binarySearch",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "lowerBound",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "searchRange",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "start",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "end",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testBinarySearch",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "target",
+						"type": "uint256"
+					}
+				],
+				"name": "upperBound",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"binarySearch(uint256[],uint256)": {
+					"params": {
+						"arr": "已排序的升序数组",
+						"target": "要查找的目标值"
+					},
+					"returns": {
+						"_0": "目标值的索引（找到时）或 type(uint).max（未找到时）"
+					}
+				},
+				"lowerBound(uint256[],uint256)": {
+					"params": {
+						"arr": "已排序的升序数组",
+						"target": "目标值"
+					},
+					"returns": {
+						"_0": "第一个大于等于目标的元素索引"
+					}
+				},
+				"searchRange(uint256[],uint256)": {
+					"params": {
+						"arr": "已排序的升序数组",
+						"target": "目标值"
+					},
+					"returns": {
+						"end": "第一个大于目标的索引",
+						"start": "第一个等于目标的索引"
+					}
+				},
+				"upperBound(uint256[],uint256)": {
+					"params": {
+						"arr": "已排序的升序数组",
+						"target": "目标值"
+					},
+					"returns": {
+						"_0": "第一个大于目标的元素索引"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"binarySearch(uint256[],uint256)": {
+					"notice": "标准二分查找（升序数组） "
+				},
+				"lowerBound(uint256[],uint256)": {
+					"notice": "查找第一个大于等于目标的元素（左边界） "
+				},
+				"searchRange(uint256[],uint256)": {
+					"notice": "查找目标值范围 [lowerBound, upperBound) "
+				},
+				"upperBound(uint256[],uint256)": {
+					"notice": "查找第一个大于目标的元素（右边界） "
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignments/first/06/06..sol": "BinarySearch"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignments/first/06/06..sol": {
+			"keccak256": "0x65ad527ce12dfa57d3b2389edb59101d50261b00158bf827fe8b4af68612c333",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ae5fa1c8d7f10bdd934ab47166f7868da886dc588cdb50520a9acca65578f49e",
+				"dweb:/ipfs/QmWBX8763fyB1wpEScoXWHczeoNfeJwR2uKRjXZsc8FoL5"
+			]
+		}
+	},
+	"version": 1
+}

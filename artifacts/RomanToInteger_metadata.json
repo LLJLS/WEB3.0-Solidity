@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Test",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "input",
+						"type": "string"
+					}
+				],
+				"name": "romanToInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignments/first/03/03.sol": "RomanToInteger"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignments/first/03/03.sol": {
+			"keccak256": "0xb77c5c24d4047ba81ea8b76af86e044d13e5c88503616bd68d6a8c76ab37f65a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fb7a870d4864877f42396c6715049a464302646672f9075a7e713249d1ec2152",
+				"dweb:/ipfs/QmT89j4U2VffJcXc4ffscyxPjf3ZwFdRgYtQopvqPnFZUH"
+			]
+		}
+	},
+	"version": 1
+}

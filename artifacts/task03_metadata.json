@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes1",
+						"name": "msg",
+						"type": "bytes1"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes1",
+						"name": "char",
+						"type": "bytes1"
+					}
+				],
+				"name": "charToValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "s",
+						"type": "string"
+					}
+				],
+				"name": "romanToInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignments/first/03/03.sol": "task03"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignments/first/03/03.sol": {
+			"keccak256": "0xb2fae5a83c61586c4d4074fa536a7b3f39fe26b1abbab52683e91984ce81f45a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a20690bec4d4ac94c8ab74fea51344d0b5595e97e2cc54e55f10eb5730912a35",
+				"dweb:/ipfs/QmZcWzTDiZJ62y2kkhbBPLQEjPZfQi1KteHi3w2uGpNdxH"
+			]
+		}
+	},
+	"version": 1
+}
